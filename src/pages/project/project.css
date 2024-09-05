@@ -1,0 +1,105 @@
+
+
+/* Default css for mobile */
+@media(min-width:350px){
+    .heading{
+        font-size: 60px;
+        font-weight: 300;
+        text-align: center;
+        cursor: pointer;
+        text-decoration: underline;
+        
+    }
+    .cont1{
+        margin-top: 5%;
+        margin-left: 15%;
+        width:70%;
+    
+    
+        .bx1{
+            width:100%;
+            h1{
+                font-weight: 300;
+            }
+            .img1{
+                width: 100%;
+            }
+            p{
+                font-weight: 400px;
+                width:100%;
+            }
+        }
+        .bx2{
+            width:100%;
+        
+            h1{
+                font-weight: 300;
+            }
+       
+            .img1{
+                width: 100%;
+            }
+            p{
+                font-weight: 400px;
+                width:100%;
+            }
+        }
+       
+    }
+}
+
+
+@media (min-width: 1200px) {
+    /* desktops */
+
+
+/* Default css for mobile */
+.heading{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.cont1{
+    margin-top: 5%;
+    margin-left: 15%;
+    width:70%;
+    display:flex;
+
+    .bx1{
+        width:100%;
+        h1{
+            font-weight: 300;
+        }
+        .img1{
+            width: 100%;
+        }
+        p{
+            font-weight: 400px;
+            width:100%;
+        }
+    }
+    .bx2{
+        width:100%;
+        margin-left: 10%;
+        h1{
+            font-weight: 300;
+        }
+   
+        .img1{
+            width: 100%;
+        }
+        p{
+            font-weight: 400px;
+            width:100%;
+        }
+    }
+   
+}
+    
+}
+
+@media (min-width: 1400px) {
+    /* extra large screens */
+}

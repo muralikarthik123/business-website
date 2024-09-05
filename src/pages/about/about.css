@@ -1,0 +1,352 @@
+
+
+/* Default css for mobile */
+@media(min-width:350px){
+    .bg{
+        width:100%;
+        height:1530px;
+        cursor: pointer;
+        /*heading */
+        h1{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 300;
+        }
+        .contentimg{
+        
+            margin-top: 10%;
+            width:100%;
+       
+            .content{
+                margin-top: 1%;
+                margin-left: 10%;
+                font-size: 10px;
+                width:80%;
+                
+                font-weight:300;
+                
+            }
+            .img{
+                margin-left: 10%;
+                .image{
+                    width:90%;
+                    height:50vh;
+                    
+                }
+            }
+        }
+        h2{
+            text-align: center;
+            font-weight: 300;
+            font-size: 20px;
+        }
+        .team{
+            width:300px;
+            text-align: center;
+            padding-left: 8%;
+        }
+    /*box 3 images*/
+        .container3{
+            margin-left: 15%;
+            margin-top: 10%;
+            width:80%;
+    
+           
+            .box1{
+                
+                width:100%;
+                .img4{
+                    width:80%;
+                    height:170px;
+                }
+                .name{
+                    font-size: 20px;
+                    
+                    font-weight: 600;
+                }
+                .content{
+                    font-size: 13px;
+                    width:100%;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 576px) {
+    /* large mobiles */
+    .bg{
+        width:100%;
+        height:1600px;
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-weight: 300;
+        }
+        .contentimg{
+            margin-left:15%;
+            margin-top: 10%;
+            display:flex;
+            .content{
+                margin-top: 5%;
+                width:40%;
+                font-size: 20px;
+                font-weight:300;
+                
+            }
+            .img{
+                margin-left: 10%;
+                .image{
+                    width:100%;
+                    height:90vh;
+                    
+                }
+            }
+        }
+        h2{
+            text-align: center;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        .team{
+            width:300px;
+            text-align: center;
+            padding-left: 38%;
+        }
+    
+        .container3{
+            margin-left: 15%;
+            margin-top: 10%;
+            width:80%;
+    
+            display:flex;
+            .box1{
+                
+                width:50%;
+                .img4{
+                    width:80%;
+                    height:350px;
+                }
+                .name{
+                    font-size: 25px;
+                    
+                    font-weight: 600;
+                }
+                .content{
+                    width:70%;
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (min-width: 768px) {
+    /* tablets */
+    .bg{
+        width:100%;
+        height:1700px;
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-weight: 300;
+        }
+        .contentimg{
+            margin-left: -5%;
+           
+            display:flex;
+            .content{
+                margin-top: 2%;
+                width:50%;
+                font-size: 20px;
+                font-weight:300;
+                
+            }
+            .img{
+             
+                .image{
+                    width:100%;
+                    height:70vh;
+                    
+                }
+            }
+        }
+        h2{
+            text-align: center;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        .team{
+            width:300px;
+            text-align: center;
+            padding-left: 38%;
+        }
+    
+        .container3{
+            margin-left: 15%;
+            margin-top: 10%;
+            width:80%;
+    
+            display:flex;
+            .box1{
+                
+                width:50%;
+                .img4{
+                    width:80%;
+                    height:250px;
+                }
+                .name{
+                    font-size: 25px;
+                    
+                    font-weight: 600;
+                }
+                .content{
+                    width:70%;
+                }
+            }
+        }
+    }
+
+    
+}
+
+@media (min-width: 992px) {
+    /* laptops */
+    .bg{
+        width:100%;
+        height:1600px;
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-weight: 300;
+        }
+        .contentimg{
+            margin-left: -5%;
+           
+            display:flex;
+            .content{
+                margin-top: 2%;
+                width:50%;
+                font-size: 20px;
+                font-weight:300;
+                
+            }
+            .img{
+             
+                .image{
+                    width:100%;
+                    height:50vh;
+                    
+                }
+            }
+        }
+        h2{
+            text-align: center;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        .team{
+            width:300px;
+            text-align: center;
+            padding-left: 38%;
+        }
+    
+        .container3{
+            margin-left: 15%;
+            margin-top: 10%;
+            width:80%;
+    
+            display:flex;
+            .box1{
+                
+                width:50%;
+                .img4{
+                    width:80%;
+                    height:250px;
+                }
+                .name{
+                    font-size: 25px;
+                    
+                    font-weight: 600;
+                }
+                .content{
+                    width:70%;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    /* desktops */
+    .bg{
+        width:100%;
+        height:1600px;
+        h1{
+            text-align: center;
+            font-size: 70px;
+            font-weight: 300;
+        }
+        .contentimg{
+           
+            margin-left:-2%;
+            margin-top: 10%;
+            display:flex;
+            .content{
+                margin-top: 5%;
+                width:40%;
+                font-size: 20px;
+                font-weight:300;
+                
+            }
+            .img{
+                margin-left: 10%;
+                .image{
+                    width:100%;
+                    height:90vh;
+                    
+                }
+            }
+        }
+        h2{
+            text-align: center;
+            font-weight: 300;
+            font-size: 30px;
+        }
+        .team{
+            width:300px;
+            text-align: center;
+            padding-left: 38%;
+        }
+    
+        .container3{
+            margin-left: 15%;
+            margin-top: 10%;
+            width:80%;
+    
+            display:flex;
+            .box1{
+                
+                width:50%;
+                .img4{
+                    width:80%;
+                    height:350px;
+                }
+                .name{
+                    font-size: 25px;
+                    
+                    font-weight: 600;
+                }
+                .content{
+                    width:70%;
+                }
+            }
+        }
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+    /* extra large screens */
+}
